@@ -43,7 +43,7 @@ public:
                 throw page_count;                     //The throw keyword throws an exception when a problem is detected
             }
         }
-        catch (...)                                   //The throw keyword throws an exception when a problem is detected
+        catch (...)                                   //The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
         {
             cout << "\nInvalid Page Count!!!";
             page_count = 0;
